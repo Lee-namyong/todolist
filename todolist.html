@@ -1,0 +1,45 @@
+<!DOCTYPE html>                        
+<html lang="ko">
+    <head>                            
+        <meta charset="utf-8">
+        <title>
+            
+
+        </title>
+        <link rel="stylesheet" type="text/css" href="todolist.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="h2_title">  To Do List </h1>
+        </header>
+       
+            <fieldset class="filed_container">
+                <legend class="legend_1">일정 입력</legend>
+
+                <label class="" for="title"> 제목: </label>
+                <input class=""  type="text" placeholder="할일의 제목을 입력하세요" id="title">   <br> <br>
+
+
+              
+                <label class=""  for="letter"> 내용: </label> 
+                <input class=""  type="text"  placeholder="할일의 내용을 입력하세요" id="letter">   <br> <br>
+             
+
+                날짜:
+                <input type="date" name="date" min="2000-01-01" max="2100-12-31" id = "date"> <br> <br>
+
+                
+                <button id="add" class="btn"> 추가 </button>
+                
+            </fieldset>
+           
+        <br> <br>
+
+        <div class="div_bottom_container" id="div_list" >  </div> 
+        
+        <script type="text/javascript" src="todolist.js"></script> 
+
+
+
+    </body>

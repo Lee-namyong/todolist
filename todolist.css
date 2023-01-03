@@ -1,0 +1,62 @@
+button {
+    border: 0;
+    outline: 0;
+    background-color: rgb(222, 240, 247);
+}
+
+.div_bottom_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.list_container {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    border: solid 1px lightgray;
+}
+
+.list_top_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    border-bottom: solid 1px lightgray;
+    background-color: rgb(238, 236, 236)
+}
+
+.list_bottom_container {
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+
+.todo {
+    margin-left: 1rem;
+    
+}
+
+#date_list {
+    font-size: 0.9rem;
+    color: rgb(230, 89, 89);
+}
+
+.btn_container {
+    position: absolute;
+    right: 1.5rem;
+}
+
+.btn {
+    padding: 0.3rem 0.9rem;
+    border: solid 1px lightgray;
+    margin-left: 0.1rem;
+}
+dd
+.btn:hover{
+    cursor: pointer;
+}
+
+
